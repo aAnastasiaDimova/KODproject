@@ -7,6 +7,7 @@ import Aboutpage from './pages/Aboutpage';
 function App() {
   return (
     <div>
+      <h1 className="text-3xl font-bold underline">Стили</h1>;
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
