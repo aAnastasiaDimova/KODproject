@@ -2,6 +2,10 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Aboutpage from './pages/Aboutpage';
 
+type Nullable<T> = T | null;
+
+let a: Nullable<number> = null;
+console.log(a); 
 
 
 function App() {
