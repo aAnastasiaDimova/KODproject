@@ -2,10 +2,19 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Aboutpage from './pages/Aboutpage';
 
-type Nullable<T> = T | null;
+class MyClass implements Logable {
+  toString(): string {
+      return "Это строка";
+  }
+}
 
-let a: Nullable<number> = null;
-console.log(a); 
+const variable = new MyClass();
+console.log(variable.toString()); 
+
+// type Nullable<T> = T | null;
+
+// let a: Nullable<number> = null;
+// console.log(a); 
 
 
 function App() {

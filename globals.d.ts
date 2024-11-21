@@ -1,0 +1,3 @@
+interface Logable {
+    toString(): string;
+}
